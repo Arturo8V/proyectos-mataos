@@ -1,0 +1,33 @@
+.card-container {
+  margin-left: flex;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 475px;
+  margin-right: flex;
+
+  transition: 0.5s;
+  animation: ease-in;
+  background-color: none;
+}
+.card-container:hover {
+  --box-shadow-color: azure;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px var(--box-shadow-color);
+}
+.image-container img {
+  overflow: hidden;
+  height: 200px;
+}
+.card-content {
+  margin: 1rem;
+  margin-top: 0.9rem;
+}
+h3,
+p {
+  color: azure;
+  margin: 0;
+  padding: 0;
+}
+.card-title {
+  margin-bottom: 0.5rem;
+}

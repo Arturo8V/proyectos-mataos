@@ -1,0 +1,37 @@
+.car-container {
+  margin-left: 13%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 300px;
+
+  transition: 0.5s;
+  animation: ease-in;
+  background-color: none;
+}
+img {
+  overflow: hidden;
+  background-blend-mode: multiply;
+
+}
+#clasificacion {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+#clasificacion td, #clasificacion th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+a,
+p {
+  color: azure;
+  margin: 0;
+  padding: 0;
+}
+.car-container:hover {
+  --box-shadow-color: azure;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px var(--box-shadow-color);
+}
